@@ -4,26 +4,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
-        <link rel="canonical" href="https://github.com/Fradeet/fradeet.github.io/">
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Fradeet's Page</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="canonical" href="https://github.com/Fradeet/fradeet.github.io/Playground/Think_about_Ascend_Atlas/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Think about Ascend Atlas - Fradeet's Page</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap.min.js" defer></script>
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">Fradeet's Page</a>
+                <a class="navbar-brand" href="../..">Fradeet's Page</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -33,15 +33,15 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem active">
-                                <a href="." class="nav-link">Home</a>
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Playground <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="Playground/Playground_info/" class="dropdown-item">Info</a>
+    <a href="../Playground_info/" class="dropdown-item">Info</a>
 </li>
                                 </ul>
                             </li>
@@ -50,11 +50,11 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="About/Fradeet/" class="dropdown-item">Fradeet</a>
+    <a href="../../About/Fradeet/" class="dropdown-item">Fradeet</a>
 </li>
                                     
 <li>
-    <a href="About/View_on_Github/" class="dropdown-item">View on GitHub</a>
+    <a href="../../About/View_on_Github/" class="dropdown-item">View on GitHub</a>
 </li>
                                 </ul>
                             </li>
@@ -66,16 +66,6 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="Playground/Playground_info/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
                     </ul>
                 </div>
             </div>
@@ -94,31 +84,22 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#hello-world" class="nav-link">Hello World!</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#one" class="nav-link">One</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#two" class="nav-link">Two</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#three" class="nav-link">Three</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
+            
+            
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="hello-world">Hello World!</h1>
-<h2 id="one">One</h2>
-<h2 id="two">Two</h2>
-<h2 id="three">Three</h2></div>
+<p>为了7折券，我决定说得更详细一点。 总的来说，我会将我研究的超分辨率模型放至昇腾开发板进行推理测试性能。</p>
+<h3 id="_1">正在研究超分辨率模型</h3>
+<p>我正在研究超分辨率模型，例如 EDSR ，当然还有很多变种的超分辨率模型，当前我正在比对它们之间相对的性能。（我使用的代码 https://github.com/Fradeet/BasicSR-modify ）购买 A2 开发板则我可以将我的研究进行扩展，我可以测试超分辨率在实际时进行推理的性能，测试实际时的瓶颈，毕竟训练与推理是两回事。</p>
+<h3 id="_2">也研究深度学习的其他方面</h3>
+<p>我还弄深度学习的其他方面，最近的人工智能图像生成我就很感兴趣。我正在尝试将这种大模型部署至开发板上运行，因为想试试 CANN 的算子融合后性能会有多大的提升。当然目前遇到了算子不支持的问题，我也是有心理准备去解决这些会发生的问题。不过当前确实主要重心还是超分辨率。</p>
+<h3 id="a2">为什么要购买 A2 开发板</h3>
+<p>购买开发板后，我可以在昇腾论坛发文章了，重点还是写的是超分辨率模型转 om 模型时遇到的算子转换问题，模型调优等还要看到时实际应用时是否有这样的问题，因为昇腾架构不同确实可能会遇到这样的挑战。
+说了这么多，购买 A2 开发板就是为了体验实际应用时遇到的情况，我注重实际应用，希望自己能做到训练推理一条龙服务。</p>
+<p>（如果购买新一代开发者套件Atlas 200I DK A2后，您的应用计划及预计成果是什么？）</p></div>
             </div>
         </div>
 
@@ -127,11 +108,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -196,8 +177,3 @@
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.4.2
-Build Date UTC : 2023-06-02 03:29:37.061492+00:00
--->
