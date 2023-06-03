@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://github.com/Fradeet/fradeet.github.io/Technology/Machine-Learning/First-try-PyTorch-model-convert-to-ONNX-20230603/">
+        <link rel="canonical" href="https://github.com/Fradeet/fradeet.github.io/Technology/Machine%20Learning/First-try-PyTorch-model-convert-to-ONNX-20230603/">
         <link rel="shortcut icon" href="../../../img/favicon.ico">
         <title>PyTorch 模型转换为 ONNX 模型初体验 - 20230603 - Fradeet's Page</title>
         <link href="../../../css/bootstrap.min.css" rel="stylesheet">
@@ -50,7 +50,7 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../Machine-Learning-Home/" class="dropdown-item">Machine Learning</a>
+    <a href="../../Deep-Learning/Machine_Learning_Home.md" class="dropdown-item">Machine Learning</a>
 </li>
                                 </ul>
                             </li>
@@ -180,9 +180,9 @@ model = torch.load(PATH)
 <h2 id="_3">遇到的问题 / 知识</h2>
 <h3 id="pt">直接载入 pt 文件会报错</h3>
 <p>文件中不包含网络图，也就是只有模型文件也不能开始推理，这是残缺的。<br />
-<img alt="Image-1" src="../../../img/20230603_1.png" />  </p>
+<img alt="Image-1" src="../20230603_1.png" />  </p>
 <h3 id="_4">没有正确理解模型网络</h3>
-<p><img alt="Image-2" src="../../../img/20230603_2.png" />
+<p><img alt="Image-2" src="../20230603_2.png" />
 发生了奇奇怪怪的报错</p>
 <h3 id="onnxexport-input_names-output_names">onnx.export() 中 input_names / output_names 的作用</h3>
 <p>导出时添加了这个参数会报错  </p>
