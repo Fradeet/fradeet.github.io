@@ -1,9 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/><meta name="theme-color" content="#3b3e43"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no"/><title>fradeet 的个人博客</title><meta name="description" content=""/><meta property="og:description" content=""/>    <meta name="keywords" content=""/><link rel="dns-prefetch" href="https://cdn.jsdelivr.net/gh/88250/solo@4.4.0/src/main/resources"/><link rel="dns-prefetch" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://cdn.jsdelivr.net/gh/88250/solo@4.4.0/src/main/resources"><link rel="icon" type="image/png" href="https://b3log.org/images/brand/solo-128.png"/><link rel="apple-touch-icon" href="https://b3log.org/images/brand/solo-128.png"><link rel="shortcut icon" type="image/x-icon" href="https://b3log.org/images/brand/solo-128.png"><meta name="copyright" content="B3log"/><meta http-equiv="Window-target" content="_top"/><meta property="og:locale" content="zh_CN"/><meta property="og:title" content="fradeet 的个人博客"/><meta property="og:site_name" content="fradeet 的个人博客"/><meta property="og:url"      content="https://fradeet.top/index.html?"/><meta property="og:image" content="https://b3log.org/images/brand/solo-128.png"/><link rel="search" type="application/opensearchdescription+xml" title="fradeet 的个人博客" href="/opensearch.xml"><link href="https://fradeet.top/rss.xml" title="RSS" type="application/rss+xml" rel="alternate"/><link rel="manifest" href="https://fradeet.top/manifest.json">            <link rel="canonical" href="https://fradeet.top/index.html">    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/88250/solo@4.4.0/src/main/resources/skins/Medium/css/base.css?1747921430379"/>
-    <script src="https://cdn.jsdelivr.net/npm/vditor@3.8.4/dist/js/icons/ant.js" async="" id="vditorIconScript"></script></head>
-<body>
+<#--
+
+    Solo - A small and beautiful blogging system written in Java.
+    Copyright (c) 2010-present, b3log.org
+
+    Solo is licensed under Mulan PSL v2.
+    You can use this software according to the terms and conditions of the Mulan PSL v2.
+    You may obtain a copy of Mulan PSL v2 at:
+            http://license.coscl.org.cn/MulanPSL2
+    THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT, MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
+    See the Mulan PSL v2 for more details.
+
+-->
 <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
      xmlns="http://www.w3.org/2000/svg">
     <defs>
@@ -77,135 +84,26 @@
 </svg>
 <header class="header">
     <div class="wrapper fn-clear">
-        <h1><a href="https://fradeet.top" rel="start" class="header__title">fradeet 的个人博客</a></h1>
+        <h1><a href="${servePath}" rel="start" class="header__title">${blogTitle}</a></h1>
 
-    </div>
-</header><div id="pjax">
-
-<nav id="headerNav" class="header__nav">
-    <div class="wrapper">
-        <a href="https://fradeet.top">
-            <svg>
-                <use xlink:href="#icon-home"></use>
-            </svg>
-            首页
-        </a>
-        <a href="https://fradeet.top/tags.html" rel="section">
-            <svg>
-                <use xlink:href="#icon-tag"></use>
-            </svg> 标签墙
-        </a>
-        <a href="https://fradeet.top/archives.html">
-            <svg>
-                <use xlink:href="#icon-bookmark"></use>
-            </svg> 存档
-        </a>
-
-
-        <a rel="archive" href="https://fradeet.top/links.html">
-            <svg>
-                <use xlink:href="#icon-link"></use>
-            </svg> 友链
-        </a>
-
-        <a rel="alternate" href="https://fradeet.top/rss.xml" rel="section">
-            <svg>
-                <use xlink:href="#icon-feed"></use>
-            </svg>
-            RSS
-        </a>
-    </div>
-</nav>
-<div class="main">
-        <div class="board">
-        Open Source, Open Mind, <br/>Open Sight, Open Future!
-
-<!-- 公告栏可使用 HTML、JavaScript，比如可以在此加入第三方统计 js -->
-        </div>
-    <div class="wrapper content">
-<div class="fn-clear article__wrap">
-    <article class="article__item
-    article__item--big
-    ">
-        <header class="article__panel">
-            <div class="article__main">
-                <h2 class="article__title">
-                    <a rel="bookmark" href="https://fradeet.top/hello-solo">
-                    世界，你好！
-                    </a>
-                        <sup>
-                            <a href="https://fradeet.top/hello-solo">
-                                有更新！
-                            </a>
-                        </sup>
-                </h2>
-                <div class="article__thumbnail" style="background-image: url(https://b3logfile.com/bing/20180105.jpg?imageView2/1/w/1280/h/720/interlace/1/q/100)"/>
-            </div>
-
-            <div class="article__meta ft-gray fn-flex">
-                <time>
-                2025-05-22
-                </time> &nbsp;•&nbsp;
-                <a href="https://fradeet.top/hello-solo#b3logsolocomments" class="ft-gray">
-                    <span data-uvstatcmt="1747873973353">0</span> 评论
-                </a> &nbsp;•&nbsp;
-                <a href="https://fradeet.top/hello-solo" class="ft-gray">
-                    <span data-uvstaturl="https://fradeet.top/hello-solo">0</span> 浏览
-                </a>
-            </div>
-        </header>
-    </article>
-</div>
-
-<nav class="pagination">
-            <span class="pagination__item pagination__item--active">1</span>
-</nav>
-    </div>
-<div class="footer__tag wrapper">
-        <a class="tag vditor-tooltipped vditor-tooltipped__n"
-           aria-label="1 文章"
-           href="https://fradeet.top/category/System">系统</a>
-        <a rel="tag"
-           class="tag vditor-tooltipped vditor-tooltipped__n"
-           aria-label="1 篇文章"
-           href="https://fradeet.top/tags/Solo">Solo</a>
-</div></div>
-
-</div>
-<div class="wrapper">
-    <footer class="footer">
-        <div class="fn-clear">
-        记录精彩的程序人生
-        </div>
-        <div class="fn-clear">
-        1 文章 &nbsp;
-        <span data-uvstaturl="https://fradeet.top">0</span> 浏览
+        <#if !staticSite>
             <div class="fn-right">
-                &copy; 2025
-                <a href="https://fradeet.top">fradeet 的个人博客</a>
-                
+                <a href="${servePath}/search" aria-label="${searchLabel}"
+                   class="vditor-tooltipped vditor-tooltipped__w header__icon">
+                    <svg>
+                        <use xlink:href="#icon-search"></use>
+                    </svg>
+                </a>
+                <#if isLoggedIn>
+                    <a class="avatar vditor-tooltipped vditor-tooltipped__w header__icon" aria-label="${adminLabel}"
+                       href="${servePath}/admin-index.do#main"
+                       style="background-image: url(${adminUser.userAvatar});"></a>
+                <#else>
+                    <a href="${servePath}/start" class="header__a">
+                        ${startToUseLabel}
+                    </a>
+                </#if>
             </div>
-        </div>
-    </footer>
-</div>
-
-<script>
-  var Label = {
-    speech: true,
-    servePath: "https://fradeet.top",
-    staticServePath: "https://cdn.jsdelivr.net/gh/88250/solo@4.4.0/src/main/resources",
-    luteAvailable: false,
-    hljsStyle: 'github',
-    langLabel: "zh_CN",
-    version: "4.4.0",
-    staticSite: true,
-    showCodeBlockLn: false,
-  }
-</script>
-<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/gh/88250/solo@4.4.0/src/main/resources/skins/Medium/js/common.min.js?1747921430379"
-        charset="utf-8"></script>
-
-</body>
-</html>
-<!-- Generated by Latke (https://github.com/88250/latke) in 25ms, 2025/05/22 21:58:10 -->
+        </#if>
+    </div>
+</header>
