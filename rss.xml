@@ -6,7 +6,18 @@
     <atom:link href="https://fradeet.top/rss.xml" rel="self" type="application/rss+xml"/>
     <description>探索专业性。</description>
     <generator>Solo, v4.4.0, https://b3log.org/solo</generator>
-    <lastBuildDate>Sat, 24 May 2025 12:47:38 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 24 May 2025 23:28:41 +0800</lastBuildDate>
     <language>zh-cn</language>
+    <item>
+      <title>Folo 认证</title>
+      <link>https://fradeet.top/folo-auth</link>
+      <description>
+        <![CDATA[<p>This message is used to verify that this feed (feedId:149122160378056704) belongs to me (userId:77011776972912640). Join me in enjoying the next generation information browser <a href="https://follow.is" target="_blank">https://follow.is</a>.</p>]]>
+      </description>
+      <author>fradeet</author>
+      <guid>https://fradeet.top/folo-auth</guid>
+      <category>待分类</category>
+      <pubDate>Sat, 24 May 2025 23:28:34 +0800</pubDate>
+    </item>
   </channel>
 </rss>
