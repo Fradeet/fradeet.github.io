@@ -4,31 +4,9 @@
     <title>斐地的个人博客</title>
     <link>https://fradeet.top</link>
     <atom:link href="https://fradeet.top/rss.xml" rel="self" type="application/rss+xml"/>
-    <description>记录精彩的程序人生</description>
+    <description>探索专业性。</description>
     <generator>Solo, v4.4.0, https://b3log.org/solo</generator>
-    <lastBuildDate>Thu, 22 May 2025 23:42:22 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 24 May 2025 12:47:38 +0800</lastBuildDate>
     <language>zh-cn</language>
-    <item>
-      <title>测试 2</title>
-      <link>https://fradeet.top/articles/2025/05/22/1747927127005.html</link>
-      <description>
-        <![CDATA[<p>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</p>]]>
-      </description>
-      <author>fradeet</author>
-      <guid>https://fradeet.top/articles/2025/05/22/1747927127005.html</guid>
-      <category>Sandbox</category>
-      <pubDate>Thu, 22 May 2025 23:31:23 +0800</pubDate>
-    </item>
-    <item>
-      <title>测试 1</title>
-      <link>https://fradeet.top/articles/2025/05/22/1747927054457.html</link>
-      <description>
-        <![CDATA[<p>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</p>]]>
-      </description>
-      <author>fradeet</author>
-      <guid>https://fradeet.top/articles/2025/05/22/1747927054457.html</guid>
-      <category>Sandbox</category>
-      <pubDate>Thu, 22 May 2025 23:18:09 +0800</pubDate>
-    </item>
   </channel>
 </rss>
