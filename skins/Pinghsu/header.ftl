@@ -20,7 +20,7 @@
 
         <nav class="header__nav mobile__none">
             <a href="${servePath}/tags.html" rel="section">
-                Tags
+                ${tagsLabel}
             </a>
             <a href="${servePath}/archives.html">
                 Archives
